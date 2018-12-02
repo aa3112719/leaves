@@ -4,8 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="叶子传媒，电梯广告，梯影">
+  <meta name="description" content="叶子传媒是国内智能影音广告领域的先行者，以性价比高的特点帮助个体工商户也能发布广告，发布广告就找叶子传媒">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>叶子传媒 - 你的广告位</title>
+  <title>叶子传媒</title>
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
   <!-- Font Awesome -->
@@ -297,18 +299,26 @@
         </div>
       </div>
       <div class="col-md-6 col-sm-6">
-        <div class="footer-right">
-          <a href="index.html"><i class="fa fa-tv"></i></a>
-          <a href="#"><i class="fa fa-weibo"></i></a>
-          <a href="#"><i class="fa fa-wechat"></i></a>
-
+        <div class="footer-right" >
+          <a href="index.html"><i class="fa fa-tv" style="color: #FFFFFF"></i></a>
+          <a href="#"><i class="fa fa-wechat" style="color: #FFFFFF"></i></a>
+          <div id="wxImg" style="display:none;height:200px;background-color:#FFFFFF;position: absolute">
+            微信图片
+          </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
 <!-- End footer -->
-
+<script type="text/javascript">
+  function showImg() {
+      document.getElementById("wxImg").style.display="block";
+  }
+  function hideImg() {
+      document.getElementById("wxImg").style.display="none";
+  }
+</script>
 <!-- jQuery library -->
 <script src="assets/js/jquery-1.8.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
