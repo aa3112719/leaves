@@ -52,90 +52,13 @@
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
   <!-- END SCROLL TOP BUTTON -->
 
-  <!-- Start header -->
-  <header id="header">
-    <!-- header top search -->
-    <div class="header-top">
-      <div class="container">
-        <form action="">
-          <div id="search">
-          <input type="text" placeholder="Type your search keyword here and hit Enter..." name="s" id="m_search" style="display: inline-block;">
-          <button type="submit">
-            <i class="fa fa-search"></i>
-          </button>
-        </div>
-        </form>
-      </div>
-    </div>
 
-  </header>
-  <!-- End header -->
-  
   <!-- Start login modal window -->
-  <div aria-hidden="false" role="dialog" tabindex="-1" id="login-form" class="modal leread-modal fade in">
-    <div class="modal-dialog">
-      <!-- Start login section -->
-      <div id="login-content" class="modal-content">
-        <div class="modal-header">
-          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
-          <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>Login</h4>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <input type="text" placeholder="User name" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-             <div class="loginbox">
-              <label><input type="checkbox"><span>Remember me</span></label>
-              <button class="btn signin-btn" type="button">SIGN IN</button>
-            </div>                    
-          </form>
-        </div>
-        <div class="modal-footer footer-box">
-          <a href="#">Forgot password ?</a>
-          <span>No account ? <a id="signup-btn" href="#">Sign Up.</a></span>            
-        </div>
-      </div>
-      <!-- Start signup section -->
-      <div id="signup-content" class="modal-content">
-        <div class="modal-header">
-          <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
-          <h4 class="modal-title"><i class="fa fa-lock"></i>Sign Up</h4>
-        </div>
-        <div class="modal-body">
-          <form>
-            <div class="form-group">
-              <input placeholder="Name" class="form-control">
-            </div>
-            <div class="form-group">
-              <input placeholder="Username" class="form-control">
-            </div>
-            <div class="form-group">
-              <input placeholder="Email" class="form-control">
-            </div>
-            <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
-            </div>
-            <div class="signupbox">
-              <span>Already got account? <a id="login-btn" href="#">Sign In.</a></span>
-            </div>
-            <div class="loginbox">
-              <label><input type="checkbox"><span>Remember me</span><i class="fa"></i></label>
-              <button class="btn signin-btn" type="button">SIGN UP</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End login modal window -->
+
 
   <!-- BEGIN MENU -->
-  <section id="menu-area">      
-    <nav class="navbar navbar-default" role="navigation">  
+  <section id="menu-area">
+    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
@@ -145,39 +68,62 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!-- LOGO -->              
+          <!-- LOGO -->
           <!-- TEXT BASED LOGO -->
-          <a class="navbar-brand" href="index.html">叶子传媒</a>              
+          <a class="navbar-brand" href="index.html"><img style="width: 108px;height:auto" src="assets/images/leveslogo.png"> </a>
           <!-- IMG BASED LOGO  -->
-           <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
+          <!-- <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="logo"></a> -->
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
-            <li class="active"><a href="index.html">主页</a></li>
-            <li><a href="about.html">关于我们</a></li>
-            <li><a href="service.html">产品介绍</a></li>
-            <li><a href="portfolio.html">物业合作</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">招商合作 <span class="fa fa-angle-down"></span></a>
+            <li class="active dropdown"><a href="index.html">主页</a></li>
+            <li class="dropdown"><a href="about.html">关于我们 <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="blog-archive.html">Blog Archive</a></li>                
-                <li><a href="blog-single-with-left-sidebar.html">Blog Single with Left Sidebar</a></li>
-                <li><a href="blog-single-with-right-sidebar.html">Blog Single with Right Sidebar</a></li>
-                <li><a href="blog-single-with-out-sidebar.html">Blog Single with out Sidebar</a></li>           
+                <li><a href="about.html#jianjie">公司简介</a></li>
+                <li><a href="about.html#work">公司业务</a></li>
+                <li><a href="about.html#dream">未来愿景</a></li>
               </ul>
             </li>
-            <li><a href="404.html">渠道合作</a></li>               
-            <li><a href="contact.html">联系我们</a></li>
-          </ul>                     
+
+            <li class="dropdown">
+              <a href="business.html" class="dropdown-toggle" data-toggle="dropdown">招商合作<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="business.html#2-1">受众分析</a></li>
+                <li><a href="business.html#2-2">销售体系</a></li>
+                <li><a href="business.html#2-3">广告主案例</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown"><a href="media.html">媒体介绍 <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="media.html#3-1">媒体形式</a></li>
+                <li><a href="media.html#3-2">功能详解</a></li>
+                <li><a href="media.html#3-3">媒体优势</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown"><a href="work.html">物业合作 <span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="work.html#4-1">安装说明</a></li>
+                <li><a href="work.html#4-2">合作方式</a></li>
+              </ul>
+            </li>
+
+            <!--<li><a href="404.html">渠道合作</a></li>-->
+            <!--<li><a href="contact.html">联系我们</a></li>-->
+            <li class="dropdown">
+              <a href="us.html" class="dropdown-toggle" data-toggle="dropdown">联系我们<span class="fa fa-angle-down"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="us.html#5-1">诚聘英才</a></li>
+                <li><a href="us.html#5-2">联系方式</a></li>
+              </ul>
+            </li>
+          </ul>
         </div><!--/.nav-collapse -->
-        <a href="#" id="search-icon">
-          <i class="fa fa-search">            
-          </i>
-        </a>
-      </div>     
+      </div>
     </nav>
   </section>
-  <!-- END MENU --> 
+  <!-- END MENU -->
 
   <!-- Start slider -->
   <section id="slider">
@@ -193,7 +139,7 @@
                   <h1 class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.5s">也有自己的广告位</h1>
                   <p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">A smaller individual.<br>They also have their own advertising space.</p>
                   <!--<p class="wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.75s">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>-->
-                  <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#">了解更多</a>
+                  <a class="read-more-btn wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" href="#1-1">了解更多</a>
                 </div>
               </div>
               <div class="col-md-6 col-sm-6">
@@ -237,7 +183,7 @@
   <section id="feature">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12" id="1-1">
           <div class="title-area">
             <h2 class="title">叶子传媒简介</h2>
             <span class="line"></span>
@@ -436,22 +382,18 @@
   <!-- End Service -->
   <!-- h5 video-->
 
-  <section id="service_video">
+  <section id="service_video" style="background-color:#FCFCFC">
     <div class="container">
       <div class="row">
-
         <div class="col-md-12">
           <div class="title-area">
+            <br>
             <h2 class="title">效果展示</h2>
             <span class="line"></span><br/><br/>
             <iframe src="http://www.56.com/iframe/MTU0NTQ5MDc1" width="100%" height="400" frameborder="0" allowfullscreen=""></iframe>
           </div>
         </div>
-
               <!-- End single service -->
-
-
-
       </div>
     </div>
   </section>
@@ -578,16 +520,27 @@
           </div>
         </div>
         <div class="col-md-6 col-sm-6">
-          <div class="footer-right">
-            <a href="index.html"><i class="fa fa-tv"></i></a>
-            <a href="#"><i class="fa fa-weibo"></i></a>
-            <a href="#"><i class="fa fa-wechat"></i></a>
+          <div class="footer-right" >
+            <a href="index.html"><i class="fa fa-tv" style="color: #FFFFFF"></i></a>
+            <a href="index.html"><i class="fa fa-weibo" style="color: #FFFFFF"></i></a>
+            <a href="javascript:void(0)" onmouseout="hideImg()" onmouseover="showImg()"><i class="fa fa-wechat" style="color: #FFFFFF"></i></a>
 
           </div>
+
         </div>
       </div>
     </div>
   </footer>
+  <!-- End footer -->
+  <script type="text/javascript">
+      function showImg() {
+          document.getElementById("wxImg").style.display="block";
+      }
+      function hideImg() {
+          document.getElementById("wxImg").style.display="none";
+      }
+  </script>
+
   <!-- End footer -->
 
   <!-- jQuery library -->
